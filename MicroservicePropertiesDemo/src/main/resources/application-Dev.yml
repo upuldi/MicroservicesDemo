@@ -1,0 +1,8 @@
+com:
+  testOne:
+#    someProperty: 'DEV TEST ONE SOME PROP'
+    anotherProperty: 'DEV TEST ONE ANOTHER PROP'
+    toBeOverRiddednProperty: 'DEV TEST ONE TO BE OVERRIDDED PROP'
+  testTwo:
+    anotherAnother:
+      keyTwo: 'DEV KEY TWO VALUE'

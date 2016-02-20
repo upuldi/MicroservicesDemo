@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: Properties Demo Application
+  profiles:
+    active: Dev
+
+server:
+  port: 9000
+
+com:
+  testOne:
+    someProperty: 'APPLICATION TEST ONE SOME PROP'
+    anotherProperty: 'APPLICATION TEST ONE ANOTHER PROP'
+    toBeOverRiddednProperty: 'APPLICATION  TEST ONE TO BE OVERRIDDED PROP'
+  testTwo:
+    someProp: 'APPLICATION TEST TWO SOME PROP'
+    anotherProp: 'APPLICATION TEST TWO ANOTHER PROP'
+    anotherAnother:
+      keyOne: 'APPLICATION KEY ONE VALUE'
+      keyTwo: 'APPLICATION KEY TWO VALUE'
+
+
+
